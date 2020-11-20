@@ -1,0 +1,97 @@
+11-Nov-2020 13:31:49 CET  Initiating request to open file file:///eos/cms/store/user/folguera/P2L1TUpgrade/Mu_FlatPt2to100-pythia8-gun_file.root
+11-Nov-2020 13:31:53 CET  Successfully opened file file:///eos/cms/store/user/folguera/P2L1TUpgrade/Mu_FlatPt2to100-pythia8-gun_file.root
+constructing InputMakerPhase2
+ using Phase2 DT trigger primitives
+retrieving omtfParams from EventSetup
+OMTFConfiguration::configureFromEdmParameterSet: 
+rpcMaxClusterSize: 3
+rpcMaxClusterCnt: 2
+rpcDropAllClustersIfMoreThanMax: 1
+lctCentralBx: 8
+minDtPhiQuality: 5
+minDtPhiBQuality: 10
+setting GhostBusterPreferRefDt
+getting patterns from EventSetup
+%MSG-i OMTFReconstruction:   L1TMuonOverlapPhase2TrackProducer:simOmtfPhase2Digis@beginRun  11-Nov-2020 13:32:06 CET Run: 1
+myOmtfConfig->nGoldenPatterns() 80
+%MSG
+initPatternPtRange:193 patternPts.size() 52
+setting GhostBusterPreferRefDt
+void OMTFProcessor<GoldenPatternType>::printInfo() const [with GoldenPatternType = GoldenPattern]
+Key_ 0 group  0:0 : (eta=0, pt=  9, charge= 1) 0 - 4.5 GeV
+Key_ 1 group  0:0 : (eta=0, pt= 10, charge= 1) 4.5 - 5 GeV
+Key_ 2 group  0:0 : (eta=0, pt=  9, charge=-1) 0 - 4.5 GeV
+Key_ 3 group  0:0 : (eta=0, pt= 10, charge=-1) 4.5 - 5 GeV
+Key_ 4 group  0:0 : (eta=0, pt= 11, charge= 1) 5 - 6 GeV
+Key_ 5 group  0:0 : (eta=0, pt= 13, charge= 1) 6 - 7 GeV
+Key_ 6 group  0:0 : (eta=0, pt= 11, charge=-1) 5 - 6 GeV
+Key_ 7 group  0:0 : (eta=0, pt= 13, charge=-1) 6 - 7 GeV
+Key_ 8 group  0:0 : (eta=0, pt= 15, charge= 1) 7 - 8 GeV
+Key_ 9 group  0:0 : (eta=0, pt= 17, charge= 1) 8 - 10 GeV
+Key_10 group  0:0 : (eta=0, pt= 15, charge=-1) 7 - 8 GeV
+Key_11 group  0:0 : (eta=0, pt= 17, charge=-1) 8 - 10 GeV
+Key_12 group  0:0 : (eta=0, pt= 21, charge= 1) 10 - 12 GeV
+Key_13 group  0:0 : (eta=0, pt= 25, charge= 1) 12 - 14 GeV
+Key_14 group  0:0 : (eta=0, pt= 21, charge=-1) 10 - 12 GeV
+Key_15 group  0:0 : (eta=0, pt= 25, charge=-1) 12 - 14 GeV
+Key_16 group  0:0 : (eta=0, pt= 29, charge= 1) 14 - 16 GeV
+Key_17 group  0:0 : (eta=0, pt= 33, charge= 1) 16 - 18 GeV
+Key_18 group  0:0 : (eta=0, pt= 29, charge=-1) 14 - 16 GeV
+Key_19 group  0:0 : (eta=0, pt= 33, charge=-1) 16 - 18 GeV
+Key_20 group  0:0 : (eta=0, pt= 37, charge= 1) 18 - 20 GeV
+Key_21 group  0:0 : (eta=0, pt= 41, charge= 1) 20 - 25 GeV
+Key_22 group  0:0 : (eta=0, pt= 37, charge=-1) 18 - 20 GeV
+Key_23 group  0:0 : (eta=0, pt= 41, charge=-1) 20 - 25 GeV
+Key_24 group  0:0 : (eta=0, pt= 51, charge= 1) 25 - 30 GeV
+Key_25 group  0:0 : (eta=0, pt= 61, charge= 1) 30 - 35 GeV
+Key_26 group  0:0 : (eta=0, pt= 51, charge=-1) 25 - 30 GeV
+Key_27 group  0:0 : (eta=0, pt= 61, charge=-1) 30 - 35 GeV
+Key_28 group  0:0 : (eta=0, pt= 71, charge= 1) 35 - 40 GeV
+Key_29 group  0:0 : (eta=0, pt= 81, charge= 1) 40 - 45 GeV
+Key_30 group  0:0 : (eta=0, pt= 91, charge= 1) 45 - 50 GeV
+Key_31 group  0:0 : (eta=0, pt=101, charge= 1) 50 - 60 GeV
+Key_32 group  0:0 : (eta=0, pt= 71, charge=-1) 35 - 40 GeV
+Key_33 group  0:0 : (eta=0, pt= 81, charge=-1) 40 - 45 GeV
+Key_34 group  0:0 : (eta=0, pt= 91, charge=-1) 45 - 50 GeV
+Key_35 group  0:0 : (eta=0, pt=101, charge=-1) 50 - 60 GeV
+Key_36 group  0:0 : (eta=0, pt=121, charge= 1) 60 - 70 GeV
+Key_37 group  0:0 : (eta=0, pt=141, charge= 1) 70 - 80 GeV
+Key_38 group  0:0 : (eta=0, pt=161, charge= 1) 80 - 90 GeV
+Key_39 group  0:0 : (eta=0, pt=181, charge= 1) 90 - 100 GeV
+Key_40 group  0:0 : (eta=0, pt=121, charge=-1) 60 - 70 GeV
+Key_41 group  0:0 : (eta=0, pt=141, charge=-1) 70 - 80 GeV
+Key_42 group  0:0 : (eta=0, pt=161, charge=-1) 80 - 90 GeV
+Key_43 group  0:0 : (eta=0, pt=181, charge=-1) 90 - 100 GeV
+Key_44 group  0:0 : (eta=0, pt=201, charge= 1) 100 - 120 GeV
+Key_45 group  0:0 : (eta=0, pt=241, charge= 1) 120 - 140 GeV
+Key_46 group  0:0 : (eta=0, pt=281, charge= 1) 140 - 200 GeV
+Key_47 group  0:0 : (eta=0, pt=401, charge= 1) 200 - 10000 GeV
+Key_48 group  0:0 : (eta=0, pt=201, charge=-1) 100 - 120 GeV
+Key_49 group  0:0 : (eta=0, pt=241, charge=-1) 120 - 140 GeV
+Key_50 group  0:0 : (eta=0, pt=281, charge=-1) 140 - 200 GeV
+Key_51 group  0:0 : (eta=0, pt=401, charge=-1) 200 - 10000 GeV
+%MSG-i OMTFReconstruction:   L1TMuonOverlapPhase2TrackProducer:simOmtfPhase2Digis 11-Nov-2020 13:33:00 CET  Run: 1 Event: 73664
+addStub: the stub with exactly the same phi, phiB and eta was already added, stub.type: 8
+%MSG
+%MSG-i OMTFReconstruction:   L1TMuonOverlapPhase2TrackProducer:simOmtfPhase2Digis 11-Nov-2020 13:33:00 CET  Run: 1 Event: 73720
+addStub: the stub with exactly the same phi, phiB and eta was already added, stub.type: 8
+%MSG
+%MSG-i OMTFReconstruction:   L1TMuonOverlapPhase2TrackProducer:simOmtfPhase2Digis 11-Nov-2020 13:33:00 CET  Run: 1 Event: 73749
+addStub: the stub with exactly the same phi, phiB and eta was already added, stub.type: 8
+%MSG
+%MSG-i OMTFReconstruction:   L1TMuonOverlapPhase2TrackProducer:simOmtfPhase2Digis 11-Nov-2020 13:33:00 CET  Run: 1 Event: 73793
+addStub: the stub with exactly the same phi, phiB and eta was already added, stub.type: 8
+%MSG
+%MSG-i OMTFReconstruction:   L1TMuonOverlapPhase2TrackProducer:simOmtfPhase2Digis 11-Nov-2020 13:33:00 CET  Run: 1 Event: 73820
+addStub: the stub with exactly the same phi, phiB and eta was already added, stub.type: 8
+%MSG
+%MSG-i OMTFReconstruction:   L1TMuonOverlapPhase2TrackProducer:simOmtfPhase2Digis 11-Nov-2020 13:33:00 CET  Run: 1 Event: 73882
+addStub: the stub with exactly the same phi, phiB and eta was already added, stub.type: 8
+%MSG
+%MSG-i OMTFReconstruction:   L1TMuonOverlapPhase2TrackProducer:simOmtfPhase2Digis 11-Nov-2020 13:33:01 CET  Run: 1 Event: 73893
+addStub: the stub with exactly the same phi, phiB and eta was already added, stub.type: 8
+%MSG
+%MSG-i OMTFReconstruction:   L1TMuonOverlapPhase2TrackProducer:simOmtfPhase2Digis 11-Nov-2020 13:33:01 CET  Run: 1 Event: 73908
+addStub: the stub with exactly the same phi, phiB and eta was already added, stub.type: 8
+%MSG
+11-Nov-2020 13:33:01 CET  Closed file file:///eos/cms/store/user/folguera/P2L1TUpgrade/Mu_FlatPt2to100-pythia8-gun_file.root
